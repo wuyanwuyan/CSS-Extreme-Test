@@ -1,0 +1,24 @@
+#wrapper{
+    /*width: 800px;*/
+    height: 600px;
+    background-color: black;
+
+}
+
+#left{
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color: green;
+}
+
+#right{
+
+    /*display: inline-block;*/
+    background-color: red;
+    height: 100%;
+    margin-left: 200px;
+
+
+
+}
