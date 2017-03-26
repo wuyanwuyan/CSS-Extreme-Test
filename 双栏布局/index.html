@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <title>float 实现双栏布局，左边固定宽度，右边自适应</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <style>
+        #wrapper{
+            height: 200px;
+        }
+
+        #left{
+            width: 200px;
+            height: 100%;
+            float: left;
+            border: 1px solid red;
+        }
+
+        #right{
+            height: 100%;
+            margin-left: 200px;
+            border: 1px solid red;
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="left">
+       left
+    </div>
+    <div id="right">
+        right
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

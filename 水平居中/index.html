@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中</title>
+    <style>
+        div{
+            border: 1px solid red;
+            padding: 20px;
+        }
+        .parent {
+            display: table;
+            margin: 0 auto;
+        }
+
+        .inner{
+            width: 300px;
+            margin: 0 auto;
+
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+   <button>this is a button</button>
+</div>
+
+<div>
+
+    <div class="inner">块级元素居中</div>
+</div>
+
+<div style="text-align: center">
+
+    <div style="display: inline-block">居中元素设为inline-block，父设为text-align: center</div>
+</div>
+
+</body>
+</html>
