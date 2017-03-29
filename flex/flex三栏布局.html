@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        div{
+            border: 1px solid red;
+            padding: 20px;
+        }
+        .parent {
+            display: flex;
+        }
+
+        .left{
+            flex-basis: 200px;
+        }
+
+        .main{
+            flex: 1;
+        }
+
+        .right{
+            flex-basis: 300px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="left">left</div>
+    <div class="main">main</div>
+    <div class="right">right</div>
+</div>
+
+
+
+</body>
+</html>
